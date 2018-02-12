@@ -1,0 +1,83 @@
+.sections {
+  padding: 5em 0;
+}
+
+/* .all-viewport {
+  height: 100vh;
+} */
+
+.bg-header {
+  background-image: url("../assets/images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.name{
+  color: #fff;
+  margin-left: 3em;
+  position: absolute;
+  text-align: right;
+  transform: translateY(520px);
+}
+
+.profile {
+  border-radius: 7px;
+  width: 560px;
+}
+
+.motto {
+  padding: 3em 0;
+}
+
+.cards {
+  width: 100%;
+}
+
+.card, .box-img {
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 7px;
+  width: 350px;
+}
+
+.card-body {
+  padding-left: 1em;
+}
+
+.space {
+  margin-bottom: 1em; 
+}
+
+.underlined::before {
+  content: "";
+  border: 2px solid rgb(231, 154, 37);
+  width: 1.5em;
+  margin: 0.5em;
+}
+
+.quote {
+  font-size: 18px;
+  /* margin-left: 15%; */
+  padding-top: 5em;
+}
+
+.paragraph {
+  line-height: 2em;
+  padding: 0 2em;
+  margin-bottom: 1em;
+}
+
+/* .box-img {
+  border: 1px solid
+} */
+
+.colored-section {
+  background-color: rgb(240, 199, 128);
+}
+
+.bg-footer {
+  background-color: rgb(22, 22, 13);
+  color: #fff;
+  padding: 3em 0;
+}
