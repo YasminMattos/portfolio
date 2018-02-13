@@ -1,10 +1,33 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  line-height: 33.18px;
+  letter-spacing: -0.063px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .sections {
-  padding: 5em 0;
+  padding: 5em 7em;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.white-smoke {
+  background-color: #f7f7f7;
+}
+
+.darker {
+  background-color: #ececec;
 }
 
 /* .all-viewport {
   height: 100vh;
 } */
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
 
 .bg-header {
   background-image: url("../assets/images/sunset.jpg");
@@ -16,7 +39,7 @@
 
 .name{
   color: #fff;
-  margin-left: 3em;
+  margin-left: 4.5em;
   position: absolute;
   text-align: right;
   transform: translateY(520px);
@@ -24,12 +47,12 @@
 
 .profile {
   border-radius: 7px;
-  width: 560px;
+  width: 100%;
 }
-
+/* 
 .motto {
   padding: 3em 0;
-}
+} */
 
 .cards {
   width: 100%;
@@ -38,7 +61,8 @@
 .card, .box-img {
   border: 1px solid rgb(197, 195, 195);
   border-radius: 7px;
-  width: 350px;
+  background-color: #f7f7f7;
+  /* width: 350px; */
 }
 
 .card-body {
@@ -64,7 +88,7 @@
 
 .paragraph {
   line-height: 2em;
-  padding: 0 2em;
+  /* padding: 0 2em; */
   margin-bottom: 1em;
 }
 
@@ -72,12 +96,11 @@
   border: 1px solid
 } */
 
-.colored-section {
+/* .colored-section {
   background-color: rgb(240, 199, 128);
-}
+} */
 
 .bg-footer {
   background-color: rgb(22, 22, 13);
   color: #fff;
-  padding: 3em 0;
 }
